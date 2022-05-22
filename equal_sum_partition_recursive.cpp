@@ -22,7 +22,7 @@ void solve(){
          cin>>arr[i];
          sum+=arr[i];
      }
-     if(sum%2==0)cout<<subsetsum(arr,sum,n);
+     if(sum%2==0)cout<<subsetsum(arr,sum/2,n);
      else cout<<0;
 }
 signed main(){
