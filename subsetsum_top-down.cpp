@@ -20,7 +20,7 @@ void solve(){
              if(arr[i-1]<=j)dp[i][j]=dp[i-1][j-arr[i-1]]||dp[i-1][j];
              else dp[i][j]=dp[i-1][j];
          }
-     }cout<<dp[4][7];
+     }cout<<dp[n][sum];
 }
 signed main(){
     ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);//FASTIO
