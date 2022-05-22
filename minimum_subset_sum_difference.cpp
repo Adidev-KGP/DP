@@ -38,6 +38,6 @@ void solve(){
 }
 
 signed main(){
-    
+   
     solve();
 }
